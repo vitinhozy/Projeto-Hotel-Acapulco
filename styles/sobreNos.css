@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color:#68916a;
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    color: #fff; 
+    position: relative;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+}
+
+.header-content {
+    text-align: left;
+    flex-grow: 2;
+
+}
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-color:rgba(100, 100, 100, 0.9);
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção da imagem */
+.image-section {
+    flex: 1;
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.texto {
+    flex: 1;
+    text-align: left;
+}
+
+.text-section h2 {
+    font-size: 2rem;
+    color: #d2691e;
+}
+
+.text-section p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.discover-button {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.discover-button:hover {
+    background-color: #a0522d;
+}

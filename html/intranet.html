@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Acapulco - Reservas</title>
+    <link rel="stylesheet" href="../styles/intranet.css">
+    <link rel="icon" href="../images/icons/LOGO-HOTEL.png-16x16.ico">
+</head>
+<body>
+    <header>
+        <img src="../images/LOHO HOTEL 0 (1).png" alt="Logo do Hotel">
+        <div class="header-content">
+        <h1>Hotel Acapulco</h1>
+        <p>Sistema de Reserva de Quartos</p>
+    </div>
+    <nav>
+        <button id="logout-btn">Logout</button>
+        </nav>
+    </header>
+
+    <main>
+        <form id="reserva-form">
+            <label for="cliente">Nome do Cliente:</label>
+            <input type="text" id="cliente" name="cliente" required>
+
+            <label for="dias">Quantidade de Dias:</label>
+            <input type="number" id="dias" name="dias" min="1" required>
+
+            <label for="valorDiaria">Valor da Diária:</label>
+            <input type="number" id="valorDiaria" name="valorDiaria" min="1" step="0.01" required>
+
+            <button type="submit">Calcular e Cadastrar</button>
+        </form>
+
+        <h2>Reservas Cadastradas</h2>
+        <ul id="listaReservas"></ul>
+    </main>
+
+    <script src="../scripts/intranet.js"></script>
+
+</body>
+</html>
