@@ -1,3 +1,4 @@
+Link Direto para acesso ao site: https://vitinhozy.github.io/Projeto-Hotel-Acapulco/
 # Hotel Acapulco 🏨
 
 Bem-vindo ao site oficial do **Hotel Acapulco**! Este é o repositório do projeto que representa o site de um hotel, focado na experiência do usuário, funcionalidades administrativas e integração com formulários de terceiros.
