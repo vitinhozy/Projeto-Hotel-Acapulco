@@ -140,3 +140,8 @@ Sinta-se à vontade para contribuir com melhorias e correções!
 ## Licença 📜
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+## **7. Créditos**
+
+- **[@gabrielresplandes](https://github.com/gabrielresplandes):** Criador do projeto.  
+- **[@vitinhozy](https://github.com/vitinhozy):** Melhorias de interface e ajustes gerais.
